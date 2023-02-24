@@ -25,7 +25,7 @@
 
 body {
     color: #999999;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
 }
@@ -48,13 +48,13 @@ body.demos .service-widget h3 {
     border-bottom: 1px solid #ededed;
     font-size: 18px;
     padding: 20px 0;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 body.demos .service-widget {
     margin: 0 0 30px;
     padding: 30px;
-    background-color: #fff
+    background-color: #000000
 }
 
 body.demos .container-fluid {
@@ -84,7 +84,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #ff0000;
     margin: 0
 }
 
@@ -309,14 +309,14 @@ a img.aligncenter {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #ffffff;
+	color: #fff;
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
 	text-transform: capitalize;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffffff;
+	color: #ff0000;
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
@@ -337,8 +337,8 @@ a img.aligncenter {
     transition: all .5s;
     z-index: -1;
 }
-.navbar-dark .navbar-nav .nav-link.active{
-	color: #28a9e2;
+/* .navbar-dark .navbar-nav .nav-link.active{
+	color: #ff0000; */
 }
 .navbar-dark .navbar-nav .nav-link.active::after {
 	width: 100%;
@@ -348,15 +348,15 @@ a img.aligncenter {
 
 
 #mainNav.navbar-shrink .navbar-nav .nav-link{
-	color: #28a9e2;
+	color: #000;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link::after{
-	background: #28a9e2;
+	background: #f00;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link.active{
-	color: #ffffff;
+	color: #f00;
 }
 
 #mainNav.navbar-shrink .navbar-brand img{
@@ -498,7 +498,7 @@ xclip
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 70px 0 0 0;
 }
 
 .noover {
@@ -507,7 +507,7 @@ xclip
 
 .noover .btn-dark {
     border: 0 !important;
-}
+} 
 
 .nopad {
     padding: 0;
@@ -518,11 +518,11 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #000000;
 }
 
 .section.db {
@@ -670,7 +670,7 @@ xclip
 }
 .right-box-pro::before {
     content: "";
-    background: url(images/country-quilt-dark.png);
+    /* background: url(images/country-quilt-dark.png); */
     width: 100%;
     height: 100%;
 	border-radius: 100px 100px 0px 100px;
@@ -772,7 +772,7 @@ xclip
 }
 
 .sim-btn{
-	background: #333333;
+	background: red;
 	color: #ffffff;
 	padding: 14px 20px;
 	border-radius: 100px;
@@ -781,7 +781,7 @@ xclip
 }
 
 .sim-btn:hover{
-	color: #ffffff;
+	color: #000;
 }
 
 .hvr-bounce-to-top{
@@ -789,7 +789,7 @@ xclip
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 1px rgba(0, 0, 0,);
 	position: relative;
 	-webkit-transition-property: color;
 	transition-property: color;
@@ -804,7 +804,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #f00;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1347,7 +1347,7 @@ xclip
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #999;
+    color: #ff0000;
 }
 
 .message-box h2 {
@@ -1358,6 +1358,7 @@ xclip
     line-height: 62px;
     margin-top: 0;
     text-transform: none;
+    color: red;
 }
 
 .message-box p {
@@ -1391,7 +1392,7 @@ xclip
 }
 
 .hover-up{
-	background: #076799;
+	background: #ff0000;
 }
 
 .service-widget .post-media_pp .hover-up{
@@ -1576,8 +1577,8 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #28a9e2;
-	color: #fff;
+	background: #000;
+	color: #f00;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 	border-radius: 100px 100px 0px 100px;
 }
@@ -1589,7 +1590,7 @@ hr.invis1 {
 	font-weight: 600;
 	font-size: 14px;
 	cursor: pointer;
-	background: #fff;
+	background: #000;
 	padding: 12px 40px;
 	border: none;
 	border-radius: 0px;
@@ -1606,7 +1607,7 @@ hr.invis1 {
 	overflow: hidden;
 	border-radius: 100px 100px 0px 100px;
 	-webkit-box-shadow: 0 0 10px #ccc;
-	box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #000;
 }
 
 .gallery-list .img-overlay {
@@ -1616,7 +1617,7 @@ hr.invis1 {
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background: rgba(40, 169, 226, 0.80);
+    background: #ff0000;
     color: #35424C;
     opacity: 0;
     -webkit-transition: all .5s;
@@ -1720,7 +1721,7 @@ hr.invis1 {
 }
 .our-team .pic{
     border-top: none;
-    border-bottom: 5px solid #28a9e2;
+    border-bottom: 5px solid rgb(235, 52, 52);
     border-radius: 50% 50% 0 50%;
     overflow: hidden;
     transition: all 0.5s ease 0s;
@@ -1730,7 +1731,7 @@ hr.invis1 {
     border-radius: 0 50%;
 }
 .our-team .pic img{
-    width: 100%;
+    width: 100px;
     height: auto;
     transition: all 0.5s ease 0s;
 }
@@ -1738,20 +1739,20 @@ hr.invis1 {
 .our-team .title{
     font-size: 22px;
     font-weight: 700;
-    color: #28a9e2;
+    color: #f00;
     text-transform: uppercase;
     margin: 0 0 5px 0;
 }
 .our-team .post{
     display: block;
     font-size: 17px;
-    color: #878484;
+    color: #1c142b;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
 .our-team .social{
     list-style: none;
-    padding: 0;
+    padding: 0; 
     margin: 0;
 }
 .our-team .social li{ display: inline-block; }
@@ -1761,10 +1762,10 @@ hr.invis1 {
     height: 35px;
     line-height: 35px;
     border-radius: 50%;
-    border: 1px solid #28a9e2;
-    background: #fff;
-    font-size: 17px;
-    color: #28a9e2;
+    border: 1px solid #fff;
+    background: #000;
+    font-size: 17px; 
+    color: rgb(150, 9, 9);
     text-align: center;
     transition: all 0.5s ease 0s;
 }
@@ -1781,7 +1782,7 @@ hr.invis1 {
 -------------------------------------------------------------------*/
 
 
-.pricingTable{
+/* .pricingTable{
     background: #fff;
     border-radius: 10px;
     text-align: center;
@@ -1853,7 +1854,7 @@ hr.invis1 {
 @media only screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 30px; }
 }
-
+ */
 
 /*------------------------------------------------------------------
     CONTACT
@@ -2190,7 +2191,7 @@ select.mobile-device {
 .contact_form {
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
+    background-color: #000;
     padding: 40px 30px;
 }
 
@@ -2217,7 +2218,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control::-webkit-input-placeholder {
-    color: #bcbcbc;
+    color: #f00;
 }
 
 .contact_form .form-control::-moz-placeholder {
@@ -2230,7 +2231,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/1.jpg) no-repeat center center #ffffff;
+    background: /* url(images/1.jpg) no-repeat center center */ #000000;
 }
 
 .contact_form textarea.form-control{
@@ -2352,7 +2353,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: black;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
