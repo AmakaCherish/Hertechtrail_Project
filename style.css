@@ -98,6 +98,7 @@ h2 {
 
 h3 {
     font-size: 18px
+
 }
 
 h4 {
@@ -518,15 +519,15 @@ xclip
 }
 
 .section.wb {
-    background-color: #000000;
+    background-color:lightgrey;
 }
 
 .section.lb {
-    background-color: #000000;
+    background-color:khaki;
 }
 
 .section.db {
-    background-color: #111111;
+    background-color: wheat;
 }
 
 .section.color1 {
@@ -1590,7 +1591,7 @@ hr.invis1 {
 	font-weight: 600;
 	font-size: 14px;
 	cursor: pointer;
-	background: #000;
+	background :plum;
 	padding: 12px 40px;
 	border: none;
 	border-radius: 0px;
@@ -2196,7 +2197,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color:black;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
@@ -2231,7 +2232,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: /* url(images/1.jpg) no-repeat center center */ #000000;
+    background: /* url(images/1.jpg) no-repeat center center */lightgray;
 }
 
 .contact_form textarea.form-control{
@@ -2353,7 +2354,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: black;
+    background-color: hsl(350, 26%, 55%);
     box-sizing: border-box;
     width: 100%;
     text-align: center;
